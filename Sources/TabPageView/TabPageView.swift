@@ -15,7 +15,7 @@ class TabPageView: UIView {
     var childVCs: [UIViewController]
     var parentVC: UIViewController
     
-    init(frame: CGRect, style: PageStyle, titles: [String], childVCs: [UIViewController], parentVC: UIViewController) {
+    public init(frame: CGRect, style: PageStyle, titles: [String], childVCs: [UIViewController], parentVC: UIViewController) {
         self.style = style
         self.titles = titles
         self.childVCs = childVCs

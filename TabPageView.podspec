@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TabPageView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "The swift version of TabPageView in iOS"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/brianbryant/TitleContentView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/brianbryant/TabPageView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

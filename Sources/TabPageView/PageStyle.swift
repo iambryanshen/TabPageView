@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageStyle: NSObject {
+public class PageStyle: NSObject {
 
     //MARK: - TabView
     var tabViewHeight: CGFloat = 44
