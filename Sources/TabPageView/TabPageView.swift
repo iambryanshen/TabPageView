@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabPageView: UIView {
+public class TabPageView: UIView {
     
     var style: PageStyle
     var titles: [String]
@@ -24,7 +24,7 @@ class TabPageView: UIView {
         setupSubviews()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
