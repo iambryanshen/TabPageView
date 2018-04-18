@@ -1,0 +1,6 @@
+framework module TabPageView {
+  umbrella header "TabPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

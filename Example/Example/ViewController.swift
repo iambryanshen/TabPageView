@@ -6,20 +6,31 @@
 //  Copyright © 2018年 Brian Inc. All rights reserved.
 //
 
+
 import UIKit
+import TabPageView
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //        let titles = ["iPhone", "iOS", "KobeBryant", "Beautiful Girl", "UtoVR", "brianbryant", "JustinBieber", "中国", "Taylor Swift"]
+        let titles = ["我的", "你的", "她的"]
+        
+        var childVCs = [UIViewController]()
+        for _ in 0..<titles.count {
+            let vc = UIViewController()
+            vc.view.backgroundColor = UIColor.randomColor()
+            childVCs.append(vc)
+        }
+        
+        let style = PageStyle()
+        style.isScrollEnable = false
+        let titleContentView = TabPageView(frame: self.view.bounds, style: style, titles: titles, childVCs: childVCs, parentVC: self)
+        titleContentView.backgroundColor = UIColor.orange
+        
+        view.addSubview(titleContentView)
+        view.backgroundColor = UIColor.red
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

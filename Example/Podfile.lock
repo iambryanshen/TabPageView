@@ -1,0 +1,16 @@
+PODS:
+  - TabPageView (0.0.5)
+
+DEPENDENCIES:
+  - TabPageView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TabPageView
+
+SPEC CHECKSUMS:
+  TabPageView: 290f249bc9184dc134324cbc775097588c83ae2d
+
+PODFILE CHECKSUM: 6591a0e5b35862b0325ecd7929f2c1bdfe938041
+
+COCOAPODS: 1.5.0
