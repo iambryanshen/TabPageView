@@ -11,35 +11,35 @@ import UIKit
 public class PageStyle: NSObject {
 
     //MARK: - TabView
-    var tabViewHeight: CGFloat = 44
-    var tabViewBackgroundColor: UIColor = UIColor.green
-    var scrollViewBackgroundColor: UIColor = UIColor.cyan
-    var isScrollEnable: Bool = true
-    var titleLabelMargin: CGFloat = 20
-    var selectedIndex: Int = 0
-    var isNeedScale: Bool = true
-    var maxScale: CGFloat = 1.1
-    var font = UIFont(name: "PingFangSC-Semibold", size: 15)!
-    var selectedFont = UIFont(name: "PingFangSC-Semibold", size: 15)!
-    var textColor = UIColor(red: 155/255.0, green: 48/255.0, blue: 255/255.0, alpha: 1.0)
-    var selectedTextColor = UIColor(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1.0)
+    public var tabViewHeight: CGFloat = 44
+    public var tabViewBackgroundColor: UIColor = UIColor.green
+    public var scrollViewBackgroundColor: UIColor = UIColor.cyan
+    public var isScrollEnable: Bool = true
+    public var titleLabelMargin: CGFloat = 20
+    public var selectedIndex: Int = 0
+    public var isNeedScale: Bool = true
+    public var maxScale: CGFloat = 1.1
+    public var font = UIFont(name: "PingFangSC-Semibold", size: 15)!
+    public var selectedFont = UIFont(name: "PingFangSC-Semibold", size: 15)!
+    public var textColor = UIColor(red: 155/255.0, green: 48/255.0, blue: 255/255.0, alpha: 1.0)
+    public var selectedTextColor = UIColor(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1.0)
     
     //MARK: - PageView
-    var pageViewBackgroundColor: UIColor = UIColor.yellow
-    var pageViewTopOffset: CGFloat = 0
-    var pageViewBottomOffset: CGFloat = 0
+    public var pageViewBackgroundColor: UIColor = UIColor.yellow
+    public var pageViewTopOffset: CGFloat = 0
+    public var pageViewBottomOffset: CGFloat = 0
     
     
     //MARK: - BottomLine
-    var isShowBottomLine: Bool = true
-    var bottomLineHeight: CGFloat = 3
-    var bottomLineWidth: CGFloat?
+    public var isShowBottomLine: Bool = true
+    public var bottomLineHeight: CGFloat = 3
+    public var bottomLineWidth: CGFloat?
     
     //MARK: - CoverView
-    var isShowCoverView: Bool = true
-    var coverViewBackgroundColor : UIColor = UIColor.blue
-    var coverViewAlpha : CGFloat = 0.3
-    var coverViewHeight : CGFloat = 40
-    var coverViewRadius : CGFloat = 12
-    var coverViewMargin : CGFloat = 5
+    public var isShowCoverView: Bool = true
+    public var coverViewBackgroundColor : UIColor = UIColor.blue
+    public var coverViewAlpha : CGFloat = 0.3
+    public var coverViewHeight : CGFloat = 40
+    public var coverViewRadius : CGFloat = 12
+    public var coverViewMargin : CGFloat = 5
 }
