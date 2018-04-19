@@ -11,7 +11,7 @@ The swift version of TabPageView in iOS
 
 - iOS 10.0+
 - Xcode 9+
-- Swift 4.0+
+- Swift 3.2+
 
 ## Communication
 
