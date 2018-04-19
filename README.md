@@ -39,7 +39,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'TabPageView', '~> 0.0.1'
+pod 'TabPageView', '~> 0.0.6'
 end
 ```
 
