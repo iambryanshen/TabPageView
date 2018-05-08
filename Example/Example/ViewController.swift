@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        let titles = ["iPhone", "iOS", "KobeBryant", "Beautiful Girl", "UtoVR", "brianbryant", "JustinBieber", "中国", "Taylor Swift"]
+//        let titles = ["iPhone", "iOS", "KobeBryant", "Beautiful Girl", "iPod", "brianbryant", "Jordan", "中国", "Taylor Swift"]
         let titles = ["我的", "你的", "她的"]
         
         var childVCs = [UIViewController]()
