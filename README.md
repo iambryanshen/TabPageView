@@ -1,6 +1,6 @@
 # TabPageView
 
-[![CI Status](https://img.shields.io/travis/ShenZhengFang/TabPageView.svg?style=flat)](https://travis-ci.org/ShenZhengFang/TabPageView)
+[![CI Status](https://img.shields.io/travis/brianbryant/TabPageView.svg?style=flat)](https://travis-ci.org/brianbryant/TabPageView)
 [![Version](https://img.shields.io/cocoapods/v/TabPageView.svg?style=flat)](https://cocoapods.org/pods/TabPageView)
 [![License](https://img.shields.io/cocoapods/l/TabPageView.svg?style=flat)](https://cocoapods.org/pods/TabPageView)
 [![Platform](https://img.shields.io/cocoapods/p/TabPageView.svg?style=flat)](https://cocoapods.org/pods/TabPageView)
@@ -49,11 +49,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'TabPageView', '~> 0.0.6'
+pod 'TabPageView'
 end
 
 Then, run the following command:

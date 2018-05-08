@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "该框架实现了tab上显示标题、page上显示标题对应的控制器的内容，且左右滑动界面时，标题和内容联动效果！"
 
-  s.homepage     = "https://github.com/brianbryant/TitleContentView"
+  s.homepage     = "https://github.com/brianbryant/TabPageView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
